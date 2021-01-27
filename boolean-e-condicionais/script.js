@@ -1,10 +1,3 @@
-if(''){
-    console.log("É isso cagão")
-} else{
-    console.log("errou")
-}
-
-
 // Verifique se a sua idade é maior do que a de algum parente
 // Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'
 var idade = 18;
