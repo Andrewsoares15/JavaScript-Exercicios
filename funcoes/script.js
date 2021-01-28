@@ -89,4 +89,15 @@ function precisoVisitar(paisesVisitados) {
  console.log( precisoVisitar(30));
   console.log(jaVisitei(20));
   
-  
+//#Faça um programa que verifique se um valor inteiro digitado pelo usuário
+///#é positivo, negativo ou igual a zero.
+var num = 5;
+function valor(numero){
+    if(numero >= 1){
+        return "É positivo"
+    } else if(numero < 0){
+        return "É negativo"
+    }else{
+        return "É igual a zero"
+    }
+}
