@@ -1,3 +1,3 @@
-# JavaScript-Exercicios
+# JavaScript-Estudos
 
 Resolvendo exercícios com JavaScript.
