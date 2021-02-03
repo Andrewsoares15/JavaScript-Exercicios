@@ -9,10 +9,11 @@ const linguagem = navigator.language;
 const largura = innerWidth;
 
 // ================== Minha prática
+const h1Selicionado = document.querySelector('h1');
 const classesSelecionada = h1Selicionado.classList;
 
 
-const h1Selicionado = document.querySelector('h1')
+
 function callh1(){
     console.log('clicou em', h1Selicionado.innerHTML)
 }
