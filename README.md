@@ -1,2 +1,3 @@
 # JavaScript-Exercicios
-Resolvendo exercícios com JavaScript
+
+Resolvendo exercícios com JavaScript.

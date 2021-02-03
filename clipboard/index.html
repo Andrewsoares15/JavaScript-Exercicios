@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard</title>
+</head>
+<body>
+    <input type="text" id="inputext" value="Andrew Lindo"> <!-- Copiar o texto do input-->
+    <button id="btnCopy"
+    data-clipboard-target= "#inputext">Copiar o texto</button>
+    <br>
+    <br>
+    <input type="text" id="textcopy" value="Agora vai copiar e excluir o que está escrito!"> <!--Copiar e recortar o texto do input-->
+    <button id="btncut" data-clipboard-action = "cut" data-clipboard-target = "#textcopy">copiar e cortar</button>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script> <!--Link para conectar o clipboard com meu pc.
+                                                                                                Disponível no GitHub do Clipboard-->
+
+    <script>
+        let clipBoard1 =  new ClipboardJS('#btnCopy');
+        let clipboard2 = new  ClipboardJS('#btncut')
+    </script>
+</body>
+</html>

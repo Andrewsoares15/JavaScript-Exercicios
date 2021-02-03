@@ -12,7 +12,7 @@ else{
     console.log("É menor")
 }
 // Qual valor é retornado na seguinte expressão?
-var expressao = (5 - 2) && (5 - ' ') && (5 - 2);
+var expressao = (5 - 2)&&  (5 - ' ') && (5 - 2);
 console.log(expressao)
 
 // Verifique se as seguintes variáveis são Truthy ou Falsy

@@ -89,4 +89,27 @@ function precisoVisitar(paisesVisitados) {
  console.log( precisoVisitar(30));
   console.log(jaVisitei(20));
   
-  
+//#Faça um programa que verifique se um valor inteiro digitado pelo usuário
+///#é positivo, negativo ou igual a zero.
+var num = 5;
+function valor(numero){
+    if(numero >= 1){
+        return "É positivo"
+    } else if(numero < 0){
+        return "É negativo"
+    }else{
+        return "É igual a zero"
+    }
+}
+//Criar uma função que receba um caractere como
+//parâmetro e retorne uma mensagem informando se
+//o caracter digitado é uma vogal ou uma consoante.
+var letra = 'and';
+function consoante(le){
+    if(le !==  'a' && le !== 'e' && le !== 'i' && le !== 'o' && le !== 'u'){
+        return "É consoante"
+    }
+    else{
+        return "é vogal"
+    }
+}
