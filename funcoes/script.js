@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Verificar se uma pessoa é maior de idade ou não.
 function idade(valor){
     if(typeof valor !== 'number'){
@@ -112,4 +113,3 @@ function consoante(le){
     else{
         return "é vogal"
     }
-}
